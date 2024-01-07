@@ -1,0 +1,122 @@
+body {
+  background-color: #ffffff;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+.wrapper {
+  border: 0;
+}
+.slogan {
+  display: flex;
+  background-color: rgb(161, 161, 161);
+  border: 1px solid #000;
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.second_slogan {
+  justify-content: end;
+}
+.menu,
+.footer {
+  margin-left: 10px;
+}
+.row {
+  width: 50%;
+}
+.col {
+  height: 100%;
+}
+.first,
+.last {
+  height: 100px;
+  justify-content: space-between;
+  background-color: #3caee7;
+}
+.col_main {
+  width: 75%;
+  height: 100%;
+}
+.main {
+  width: 80%;
+  height: 400px;
+}
+.row.main {
+  width: 100%;
+}
+.two {
+  width: 25%;
+  height: 100%;
+}
+.three {
+  width: 100%;
+  height: 100%;
+}
+.four {
+  width: 25%;
+  height: 100%;
+}
+.five {
+  width: 100%;
+  height: 750%;
+}
+.six {
+  width: 100%;
+  height: 25%;
+}
+.two,
+.four {
+  background: rgb(242, 168, 118);
+}
+.three,
+.six {
+  background: rgb(123, 212, 123);
+}
+.five {
+  background: #ffffff;
+}
+.row_235 {
+  width: 100%;
+  height: 75%;
+}
+.col_35 {
+  width: 75%;
+  height: 100%;
+}
+
+@media (max-width: 1440px) {
+  .col,
+  .row {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 580px) {
+  .col,
+  .row {
+    font-size: 10px;
+  }
+  .col.three {
+    height: 30%;
+  }
+  .col.five {
+    height: 70%;
+  }
+}
